@@ -23,7 +23,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.FrameLayout;
 import android.widget.Toast;
-
+// commtting for git
 public class GeoService extends Service{
 	LocationManager locationManager;
 	LocationListener locationListener;

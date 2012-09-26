@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Reminder" />
+   <EditText 
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reminder Title" 
+        android:id="@+id/title"
+        />
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Longitude" />
+   <EditText 
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude" 
+        android:id="@+id/longitude"
+        />
+
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Latitude" />
+   <EditText 
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude" 
+        android:id="@+id/latitude"
+        />
+
+</LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center_horizontal">
+	<Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Use Current Location"
+	    android:id="@+id/currentLocation"
+	    
+	/>
+	
+	<Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Pick From The Map"
+	    android:id="@+id/mapLocation"
+	    
+	/>
+</LinearLayout>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Radius" />
+   <EditText 
+       android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Radius" 
+        android:id="@+id/radius"
+   />
+
+   <Spinner
+       android:id="@+id/length"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="1" />
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+   <EditText 
+    	android:textColor="#FFFFFF"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+        android:singleLine="false" 
+        android:lines="2"
+    	android:id="@+id/address"
+    	android:editable="false"
+    	android:background="@android:color/transparent">
+    </EditText>
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Message" />
+   <EditText 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+        android:singleLine="false" 
+        android:lines="2"
+    	android:id="@+id/message">
+    </EditText>
+
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:id="@+id/save"
+/>
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clear"
+    android:id="@+id/clear"
+/>
+</LinearLayout>
+</LinearLayout>
